@@ -2,3 +2,6 @@
 	path = redis
 	url = https://zhangshiqian1214@github.com/zhangshiqian1214/redis.git
 	branch = 3.2
+[submodule "skynet"]
+	path = skynet
+	url = https://github.com/praticelover/skynet.git
