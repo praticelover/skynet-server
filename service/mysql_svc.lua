@@ -24,7 +24,7 @@ function command.init(conf)
 end
 
 local function dispatch(session, addr, cmd, ...)
-	local func = assert(command[cmd, string.format("mysql svc func is nil")])
+	local func = assert(command[cmd], string.format("mysql %s svc func is nil",cmd))
 	if session > 0 then
 		skynet.retpack(func(...))
 	else

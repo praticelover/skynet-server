@@ -42,7 +42,7 @@ end
 --TODO for service
 function player_ctrl.handle_player_payout(desk_svc, winlost_info)
 
-	context.call(desk_svc, "player_payout_end", ,player_info)
+	context.call(desk_svc, "player_payout_end",player_info)
 end
 
 
